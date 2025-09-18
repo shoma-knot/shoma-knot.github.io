@@ -127,15 +127,10 @@ Ablation study2
 
 <script>
 
-// 5 => p294
-// 6 => p334
-// 7 => p303
-// 8 => p360
+const spkname2id = {"p294": "5", "p334": "6", "p303": "7", "p360": "8"};
 
-const spkname2id = {"p294": "5", "p334": "6", "p303": "7", "p360": "8"}
-
-var clean_src = "5"
-var clean_tgt = "5"
+var clean_src = "5";
+var clean_tgt = "5";
 
 const WAV_NAME = ["001","002","007"];
 
