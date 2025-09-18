@@ -125,11 +125,136 @@ Ablation study2
 
 </div>
 
+---
+
+## Noisy Input
+
+<div id="noisy-table-container">
+
+<label for="noisy-src-selector">Source Speaker:</label>
+<select name="noisy-src" id="noisy-src-selector">
+
+<option value="5">p294(female)</option>
+<option value="7">p303(female)</option>
+<option value="6">p334(male)</option>
+<option value="8">p360(male)</option>
+</select>
+
+-->
+
+<label for="noisy-tgt-selector">Target Speaker:</label>
+<select name="noisy-tgt" id="noisy-tgt-selector">
+
+<option value="5">p294(female)</option>
+<option value="7">p303(female)</option>
+<option value="6">p334(male)</option>
+<option value="8">p360(male)</option>
+</select>
+
+  <table class="demo" border="1">
+    <tbody>
+      <tr><th class="noisy-snr-header" colspan=4>SNR=0 dB</th></tr>
+      <tr>
+        <th>Input</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X', 0, 0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X', 1, 0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X', 2, 0)"/></td>
+      </tr>
+      <tr>
+        <th>P</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',0, 0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',1, 0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',2, 0)"/></td>
+      </tr>
+      <tr>
+        <th>A4</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',0, 0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',1, 0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',2, 0)"/></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="demo" border="1">
+    <tbody>
+      <tr><th class="noisy-snr-header" colspan=4>SNR=5 dB</th></tr>
+      <tr>
+        <th>Input</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',0, 5)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',1, 5)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',2, 5)"/></td>
+      </tr>
+      <tr>
+        <th>P</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',0, 5)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',1, 5)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',2, 5)"/></td>
+      </tr>
+      <tr>
+        <th>A4</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',0, 5)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',1, 5)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',2, 5)"/></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="demo" border="1">
+    <tbody>
+      <tr><th class="noisy-snr-header" colspan=4>SNR=10 dB</th></tr>
+      <tr>
+        <th>Input</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',0, 10)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',1, 10)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',2, 10)"/></td>
+      </tr>
+      <tr>
+        <th>P</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',0, 10)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',1, 10)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',2, 10)"/></td>
+      </tr>
+      <tr>
+        <th>A4</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',0, 10)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',1, 10)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',2, 10)"/></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="demo" border="1">
+    <tbody>
+      <tr class><th class="noisy-snr-header" colspan=4>SNR=20 dB</th></tr>
+      <tr>
+        <th>Input</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',0, 20)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',1, 20)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',2, 20)"/></td>
+      </tr>
+      <tr>
+        <th>P</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',0, 20)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',1, 20)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',2, 20)"/></td>
+      </tr>
+      <tr>
+        <th>A4</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',0, 20)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',1, 20)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',2, 20)"/></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
 <script src="./script.js"></script>
 
 <style>
     table.demo {
       width: auto;
+      margin: 5px;
     }
     table.demo>tbody>tr>th,
     table.demo>tbody>tr>td {
@@ -140,4 +265,10 @@ Ablation study2
       text-align: center;
       vertical-align: center;
     }
+
+    th.noisy-snr-header {
+      font-size: 120%;
+      height: 30px !important;
+    }
+
 </style>
