@@ -42,15 +42,15 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
     <tbody>
       <tr>
         <th>Source speech</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','src',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','src',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','src',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','src',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','src',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','src',2)"/></td>
       </tr>
       <tr>
         <th>Target speech (X)</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','X',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','X',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','X',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','X',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','X',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','X',2)"/></td>
       </tr>
     </tbody>
   </table>
@@ -60,15 +60,15 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
       <tr><th class="noisy-snr-header" colspan=4>Baseline vs. Proposed</th></tr>
       <tr>
         <th>B</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','B',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','B',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','B',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','B',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','B',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','B',2)"/></td>
       </tr>
       <tr>
         <th>P</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','P',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','P',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','P',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','P',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','P',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','P',2)"/></td>
       </tr>
     </tbody>
   </table>
@@ -78,39 +78,39 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
       <tr><th class="noisy-snr-header" colspan=4>Ablation study1</th></tr>
       <tr>
         <th>A1</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A1',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A1',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A1',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A1',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A1',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A1',2)"/></td>
       </tr>
       <tr>
         <th>A2</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A2',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A2',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A2',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A2',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A2',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A2',2)"/></td>
       </tr>
       <tr>
         <th>A3</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A3',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A3',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A3',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A3',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A3',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A3',2)"/></td>
       </tr>
       <tr>
         <th>A4</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A4',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A4',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A4',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A4',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A4',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A4',2)"/></td>
       </tr>
       <tr>
         <th>A5</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A5',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A5',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A5',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A5',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A5',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A5',2)"/></td>
       </tr>
       <tr>
         <th>A6</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A6',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A6',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A6',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A6',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A6',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','A6',2)"/></td>
       </tr>
     </tbody>
   </table>
@@ -120,15 +120,15 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
       <tr><th class="noisy-snr-header" colspan=4>Ablation study2</th></tr>
       <tr>
         <th>BF</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','BF',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','BF',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','BF',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','BF',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','BF',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','BF',2)"/></td>
       </tr>
       <tr>
         <th>PF</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','PF',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','PF',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','PF',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','PF',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','PF',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('clean','PF',2)"/></td>
       </tr>
     </tbody>
   </table>
@@ -165,9 +165,9 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
     <tbody>
       <tr>
         <th>Target speech</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','tgt',0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','tgt',1)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','tgt',2)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','tgt',0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','tgt',1)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','tgt',2)"/></td>
       </tr>
     </tbody>
   </table>
@@ -177,21 +177,21 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
       <tr><th class="noisy-snr-header" colspan=4>SNR=0 dB</th></tr>
       <tr>
         <th>Input</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X', 0, 0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X', 1, 0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X', 2, 0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X', 0, 0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X', 1, 0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X', 2, 0)"/></td>
       </tr>
       <tr>
         <th>P</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',0, 0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',1, 0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',2, 0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',0, 0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',1, 0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',2, 0)"/></td>
       </tr>
       <tr>
         <th>A4</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',0, 0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',1, 0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',2, 0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',0, 0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',1, 0)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',2, 0)"/></td>
       </tr>
     </tbody>
   </table>
@@ -201,21 +201,21 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
       <tr><th class="noisy-snr-header" colspan=4>SNR=5 dB</th></tr>
       <tr>
         <th>Input</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',0, 5)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',1, 5)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',2, 5)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X',0, 5)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X',1, 5)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X',2, 5)"/></td>
       </tr>
       <tr>
         <th>P</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',0, 5)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',1, 5)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',2, 5)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',0, 5)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',1, 5)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',2, 5)"/></td>
       </tr>
       <tr>
         <th>A4</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',0, 5)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',1, 5)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',2, 5)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',0, 5)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',1, 5)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',2, 5)"/></td>
       </tr>
     </tbody>
   </table>
@@ -225,21 +225,21 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
       <tr><th class="noisy-snr-header" colspan=4>SNR=10 dB</th></tr>
       <tr>
         <th>Input</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',0, 10)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',1, 10)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',2, 10)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X',0, 10)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X',1, 10)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X',2, 10)"/></td>
       </tr>
       <tr>
         <th>P</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',0, 10)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',1, 10)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',2, 10)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',0, 10)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',1, 10)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',2, 10)"/></td>
       </tr>
       <tr>
         <th>A4</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',0, 10)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',1, 10)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',2, 10)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',0, 10)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',1, 10)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',2, 10)"/></td>
       </tr>
     </tbody>
   </table>
@@ -249,21 +249,21 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
       <tr class><th class="noisy-snr-header" colspan=4>SNR=20 dB</th></tr>
       <tr>
         <th>Input</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',0, 20)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',1, 20)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','X',2, 20)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X',0, 20)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X',1, 20)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','X',2, 20)"/></td>
       </tr>
       <tr>
         <th>P</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',0, 20)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',1, 20)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',2, 20)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',0, 20)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',1, 20)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','P',2, 20)"/></td>
       </tr>
       <tr>
         <th>A4</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',0, 20)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',1, 20)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','A4',2, 20)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',0, 20)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',1, 20)"/></td>
+        <td><i class="fa-solid fa-play" onclick="play('noisy','A4',2, 20)"/></td>
       </tr>
     </tbody>
   </table>
@@ -287,9 +287,15 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
       vertical-align: center;
     }
 
+    table.demo>tbody>tr>td>i {
+      cursor: pointer;
+    }
+
     th.noisy-snr-header {
       font-size: 120%;
       height: 30px !important;
     }
+
+
 
 </style>
