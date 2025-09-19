@@ -19,8 +19,8 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
 
 <option value="5">p294(female)</option>
 <option value="7">p303(female)</option>
-<option value="6">p334(male)</option>
-<option value="8">p360(male)</option>
+<option selected value="0">p252(male)</option>
+<option value="4">p243(male)</option>
 </select>
 
 -->
@@ -29,9 +29,9 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
 <select name="clean-tgt" id="clean-tgt-selector">
 
 <option value="5">p294(female)</option>
-<option value="7">p303(female)</option>
-<option value="6">p334(male)</option>
-<option value="8">p360(male)</option>
+<option selected value="7">p303(female)</option>
+<option value="0">p252(male)</option>
+<option value="4">p243(male)</option>
 </select>
 
 </div>
@@ -41,11 +41,23 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
   <table class="demo" border="1">
     <tbody>
       <tr>
-        <th>X</th>
+        <th>Source speech</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','src',0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','src',1)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','src',2)"/></td>
+      </tr>
+      <tr>
+        <th>Target speech (X)</th>
         <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','X',0)"/></td>
         <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','X',1)"/></td>
         <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','X',2)"/></td>
       </tr>
+    </tbody>
+  </table>
+
+  <table class="demo" border="1">
+    <tbody>
+      <tr><th class="noisy-snr-header" colspan=4>Baseline vs. Proposed</th></tr>
       <tr>
         <th>B</th>
         <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','B',0)"/></td>
@@ -61,10 +73,9 @@ PRVAE-VC2+: Improving PRVAE-VC2 Training With Time-Invariant and Time-Variant Da
     </tbody>
   </table>
 
-Ablation study1
-
   <table class="demo" border="1">
     <tbody>
+      <tr><th class="noisy-snr-header" colspan=4>Ablation study1</th></tr>
       <tr>
         <th>A1</th>
         <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','A1',0)"/></td>
@@ -104,10 +115,9 @@ Ablation study1
     </tbody>
   </table>
 
-Ablation study2
-
   <table class="demo" border="1">
     <tbody>
+      <tr><th class="noisy-snr-header" colspan=4>Ablation study2</th></tr>
       <tr>
         <th>BF</th>
         <td><input type="image" src="../../assets/demo/play.svg" onclick="play('clean','BF',0)"/></td>
@@ -136,8 +146,8 @@ Ablation study2
 
 <option value="5">p294(female)</option>
 <option value="7">p303(female)</option>
-<option value="6">p334(male)</option>
-<option value="8">p360(male)</option>
+<option selected value="0">p252(male)</option>
+<option value="4">p243(male)</option>
 </select>
 
 -->
@@ -146,10 +156,21 @@ Ablation study2
 <select name="noisy-tgt" id="noisy-tgt-selector">
 
 <option value="5">p294(female)</option>
-<option value="7">p303(female)</option>
-<option value="6">p334(male)</option>
-<option value="8">p360(male)</option>
+<option selected value="7">p303(female)</option>
+<option value="0">p252(male)</option>
+<option value="4">p243(male)</option>
 </select>
+
+  <table class="demo" border="1">
+    <tbody>
+      <tr>
+        <th>Target speech</th>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','tgt',0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','tgt',1)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','tgt',2)"/></td>
+      </tr>
+    </tbody>
+  </table>
 
   <table class="demo" border="1">
     <tbody>
@@ -162,9 +183,9 @@ Ablation study2
       </tr>
       <tr>
         <th>P</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',0, 0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',1, 0)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',2, 0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',0, 0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',1, 0)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',2, 0)"/></td>
       </tr>
       <tr>
         <th>A4</th>
@@ -186,9 +207,9 @@ Ablation study2
       </tr>
       <tr>
         <th>P</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',0, 5)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',1, 5)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',2, 5)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',0, 5)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',1, 5)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',2, 5)"/></td>
       </tr>
       <tr>
         <th>A4</th>
@@ -210,9 +231,9 @@ Ablation study2
       </tr>
       <tr>
         <th>P</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',0, 10)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',1, 10)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',2, 10)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',0, 10)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',1, 10)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',2, 10)"/></td>
       </tr>
       <tr>
         <th>A4</th>
@@ -234,9 +255,9 @@ Ablation study2
       </tr>
       <tr>
         <th>P</th>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',0, 20)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',1, 20)"/></td>
-        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','B',2, 20)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',0, 20)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',1, 20)"/></td>
+        <td><input type="image" src="../../assets/demo/play.svg" onclick="play('noisy','P',2, 20)"/></td>
       </tr>
       <tr>
         <th>A4</th>
